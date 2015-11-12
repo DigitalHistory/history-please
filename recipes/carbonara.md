@@ -3,13 +3,13 @@
 
 
 ##Ingredients
-3	large	free-range egg yolks
-40	g	Parmesan cheese	, plus extra to serve
+3 large free-range egg yolks
+40g Parmesan cheese, plus extra to serve
 sea salt
 freshly ground black pepper
-1 x 150	g	piece of higher-welfare pancetta
-200	g	spaghetti
-1	clove of	garlic	, peeled
+1x150g piece of higher-welfare pancetta
+200g spaghetti
+1 clove of garlic, peeled
 extra virgin olive oil
 
 ##Instructions
