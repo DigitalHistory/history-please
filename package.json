@@ -1,6 +1,6 @@
 {
   "name": "pasta-please",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Gives you a random pasta recipe",
   "main": "index.js",
   "bin": {
