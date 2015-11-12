@@ -19,5 +19,5 @@
 7. Add veggies and cook until soft
 8. Strain pasta when done
 9. Remove skin from roasted tomatoes, purée, then add to the pan with the garlic, veggies and onion
-10. Add sauce to pasta, mix until combined, adding truffle evoo to taste
+10. Add sauce to pasta, mix until combined, adding herbs and truffle evoo to taste
 11. Serve and enjoy :)
