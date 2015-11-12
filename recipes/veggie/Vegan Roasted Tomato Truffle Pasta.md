@@ -10,7 +10,7 @@
 - Veggies of choice (optional)
 
 ## Method:
-1. Put whole tomatoes on a baking sheet and bake for 10 minutes at 350F
+1. Put whole tomatoes on a baking sheet and bake for 10 minutes at 450F
 2. Bring pot of water to a boil
 3. Add pasta, cook for 8 minutes
 4. Dice and mince ingredients where applicable
