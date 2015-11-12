@@ -1,0 +1,18 @@
+{
+  "name": "pasta-please",
+  "version": "0.0.0",
+  "description": "Gives you a random pasta recipe",
+  "main": "index.js",
+  "bin": {
+    "pasta-please": "./bin/pasta-please.js"
+  },
+  "author": "@k88hudson",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "fs-extra": "^0.26.2",
+    "html-to-text": "^1.4.0",
+    "markdown-js": "0.0.3",
+    "minimist": "^1.2.0"
+  }
+}
