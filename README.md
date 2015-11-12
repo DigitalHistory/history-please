@@ -1,4 +1,5 @@
 # Pasta please!
+:spaghetti::spaghetti::spaghetti::spaghetti::spaghetti::spaghetti::spaghetti:
 
 This command line utility will give you a random pasta recipe.
 
