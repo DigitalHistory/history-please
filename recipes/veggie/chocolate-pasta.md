@@ -3,6 +3,7 @@ Author: Andrew Sabot <@asabot>
 
 ## Description
   A pasta with a global taste without boarders that will rattle your titainum bones. Some say this is better then the meatrix
+  Warning this recipe contains nuts
 
 ## Ingredients
 
