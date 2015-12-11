@@ -1,5 +1,5 @@
 # Heroes please!
-:maple-leaf::maple-leaf::maple-leaf::maple-leaf::maple-leaf::maple-leaf::maple-leaf::maple-leaf::maple-leaf:
+:maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf:
 
 This command line utility will give you a random hero from Canadian history.
 
