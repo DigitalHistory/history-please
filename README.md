@@ -1,22 +1,23 @@
-# Pasta please!
-:spaghetti::spaghetti::spaghetti::spaghetti::spaghetti::spaghetti::spaghetti:
+# Heroes please!
+:maple-leaf::maple-leaf::maple-leaf::maple-leaf::maple-leaf::maple-leaf::maple-leaf::maple-leaf::maple-leaf:
 
-This command line utility will give you a random pasta recipe.
+This command line utility will give you a random hero from Canadian history.
 
 ## Installation
+First, [install node](https://nodejs.org/en/download/). Then, using the command line (terminal in Mac or Linux, Command Prompt or PowerShell in Windows), type:
 
 ```
-npm install -g pasta-please
+npm install -g heroes-please
 ```
 
 ## Usage
-
+You have to use the command line again:
 ```bash
-pasta-please    # Returns a pasta recipe
---meat          # Returns a meat recipe
---veggie        # Returns a veggie recipe
+heroes-please    # Returns a hero
+--political          # Returns a political hero
+--cultural        # Returns a cultural hero
 ```
 
 ## Contributing
 
-Add recipes to the `recipes/` folder, in either the `meat` or the `veggie` directory.
+Add recipes to the `heroes/` folder, in either the `poltical`, `cultural`, or `misc` subdirectory. 
