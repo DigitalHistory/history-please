@@ -17,22 +17,24 @@ function getFileNames(pathName) {
         });
 }
 
-function getRandomRecipe(options) {
+function getRandomHero(options) {
 
     let files = [];
-
-    if (!options.veggie) {
-        files = files.concat(getFileNames('../recipes/meat'));
+    if (!options.misc && !options.political) {
+        files = files.concat(getFileNames('../heroes/cultural'));
     }
-    if (!options.meat) {
-        files = files.concat(getFileNames('../recipes/veggie'));
+    if (!options.misc && !options.cultural) {
+        files = files.concat(getFileNames('../heroes/political'));
     }
-
+    if (!options.cultural && !options.political) {
+        files = files.concat(getFileNames('../heroes/misc'));
+    }
+    
     const randomFilePath = files[Math.floor(Math.random() * files.length)];
     const text = fs.readFileSync(randomFilePath, {encoding: 'utf-8'})
     const result = htmlToText.fromString(markdown.makeHtml(text));
-    console.log(LINE + result + '\n\nEnjoy!'.yellow + LINE);
+    console.log(LINE + result + '\n\nO Canada!'.yellow + LINE);
 }
 
-
-getRandomRecipe(args);
+console.log(getFileNames("../heroes/misc"));
+getRandomHero(args);

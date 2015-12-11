@@ -1,12 +1,12 @@
 {
-  "name": "pasta-please",
-  "version": "0.0.4",
-  "description": "Gives you a random pasta recipe",
+  "name": "heroes-please",
+  "version": "0.0.1",
+  "description": "Gives you a random Canadian hero from history",
   "main": "index.js",
   "bin": {
-    "pasta-please": "./bin/pasta-please.js"
+    "heroes-please": "./bin/heroes-please.js"
   },
-  "author": "@k88hudson",
+  "author": "@k88hudson, Mat Price",
   "license": "MPL-2.0",
   "dependencies": {
     "colors": "^1.1.2",
