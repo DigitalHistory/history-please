@@ -16,6 +16,7 @@ You have to use the command line again:
 heroes-please    # Returns a hero
 --political          # Returns a political hero
 --cultural        # Returns a cultural hero
+--misc        # Returns a miscellaneous hero
 ```
 
 ## Contributing

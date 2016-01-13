@@ -36,5 +36,5 @@ function getRandomHero(options) {
     console.log(LINE + result + '\n\nO Canada!'.yellow + LINE);
 }
 
-console.log(getFileNames("../heroes/misc"));
+// console.log(getFileNames("../heroes/misc"));
 getRandomHero(args);
