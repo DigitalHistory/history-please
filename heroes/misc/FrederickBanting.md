@@ -1,2 +1,2 @@
 # Frederick Banting
-An awesome scientist from the University of Toronto who helped to discover insulin. [See more here](https://en.wikipedia.org/wiki/Frederick_Banting)!
+An awesome Canadian physician (also artist and Nobel Laureate) from the University of Toronto who helped to discover insulin in 1920. His research drastically changed the nature of medicine. Banting is remembered at the University of Toronto by naming the Banting Institute Centre for Innovation and Entrepreneurship after him.  [See more here](https://en.wikipedia.org/wiki/Frederick_Banting)!
