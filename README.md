@@ -22,3 +22,7 @@ heroes-please    # Returns a hero
 ## Contributing
 
 Add recipes to the `heroes/` folder, in either the `poltical`, `cultural`, or `misc` subdirectory. 
+
+Notes:
+- this is a list item
+- and this is another one
