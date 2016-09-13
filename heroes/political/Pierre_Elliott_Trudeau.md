@@ -1,6 +1,9 @@
 # Pierre Elliott Trudeau
-<img src="http://www.quotecollection.com/author-images/pierre-trudeau-3.jpg" 
-alt="IMAGE ALT TEXT HERE" width="180" height="240" border="10" /></a>
+```
+oops. The image that used to be linked here is now missing. 
+Can someone find a better one?
+```
+
 ### Born: October 18th, 1919
 ### Died: September 28th, 2000
 

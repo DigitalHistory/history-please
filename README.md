@@ -21,8 +21,26 @@ heroes-please    # Returns a hero
 
 ## Contributing
 
-Add recipes to the `heroes/` folder, in either the `poltical`, `cultural`, or `misc` subdirectory. 
+First, [register with Github](https://github.com/join) and then "fork" this repository by clicking the "fork" button on the top right of this page.
 
-Notes:
-- this is a list item
-- and this is another one
+Add heroes to the `heroes/` folder, in either the `poltical`, `cultural`, or `misc` subdirectory. Each "Hero" description is written in markdown:
+
+```md
+# Level 1 headline, for titles
+## level 2 headline, for outline elements
+### maybe you feel like a level 3 headline?
+> quote
+[link text](link URL)
+*italics*
+**bold**
+![image alt text](Image URL "Image Title")
+etc.
+- list item
+- another list item 
+```
+
+For more details, [check out the Githb Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+Once you have written a hero description to your satisfaction, submit a "pull request" by committing your changes and ticking the "Create a new branch for this commit and start a pull request" box.  
+
+I'll commit hte changes and we can all enjoythem!
