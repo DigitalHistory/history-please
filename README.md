@@ -43,4 +43,4 @@ For more details, [check out the Githb Markdown cheatsheet](https://github.com/a
 
 Once you have written a hero description to your satisfaction, submit a "pull request" by committing your changes and ticking the "Create a new branch for this commit and start a pull request" box.  
 
-I'll commit hte changes and we can all enjoythem!
+I'll commit the changes and we can all enjoy them!
