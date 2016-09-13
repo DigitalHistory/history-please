@@ -13,6 +13,7 @@
     "fs-extra": "^0.26.2",
     "html-to-text": "^1.4.0",
     "markdown-js": "0.0.3",
-    "minimist": "^1.2.0"
+      "minimist": "^1.2.0",
+      "open": "^0.0.5"
   }
 }
