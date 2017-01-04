@@ -1,4 +1,4 @@
-# Heroes please!
+# History please!
 :maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf:
 
 This command line utility will give you a random hero from Canadian history.
@@ -23,7 +23,7 @@ heroes-please    # Returns a hero
 
 First, [register with Github](https://github.com/join) and then "fork" this repository by clicking the "fork" button on the top right of this page.
 
-Add heroes to the `heroes/` folder, in either the `poltical`, `cultural`, or `misc` subdirectory. Each "Hero" description is written in markdown:
+Once you have an account, you can make changes to this repository directly from the Github repository web page. Add *historical figures* by clicking the `Create New File` button (top right) to add a new file to the `history/people` folder. Similarly, add *events* to the `history/events` folder, and *trends* to the `history/trends` folder.  Each description is written in  the markdown syntax:
 
 ```md
 # Level 1 headline, for titles
@@ -41,6 +41,6 @@ etc.
 
 For more details, [check out the Githb Markdown cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-Once you have written a hero description to your satisfaction, submit a "pull request" by committing your changes and ticking the "Create a new branch for this commit and start a pull request" box.  
+Once you have written adescription description to your satisfaction, submit a "pull request" by committing your changes and ticking the "Create a new branch for this commit and start a pull request" box.  
 
-I'll commit the changes and we can all enjoy them!
+I'll respond with comments and eventually commit the changes, and we can all enjoy them!
