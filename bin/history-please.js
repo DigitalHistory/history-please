@@ -24,14 +24,14 @@ function getFileNames(pathName) {
 function getRandomHero(options) {
 
     let files = [];
-    if (!options.misc && !options.political) {
-        files = files.concat(getFileNames('../heroes/cultural'));
+    if (!options.trends && !options.events) {
+        files = files.concat(getFileNames('../history/people'));
     }
-    if (!options.misc && !options.cultural) {
-        files = files.concat(getFileNames('../heroes/political'));
+    if (!options.trends && !options.people) {
+        files = files.concat(getFileNames('../history/events'));
     }
-    if (!options.cultural && !options.political) {
-        files = files.concat(getFileNames('../heroes/misc'));
+    if (!options.cultural && !options.events) {
+        files = files.concat(getFileNames('../history/trends'));
     }
     
     const randomFilePath = files[Math.floor(Math.random() * files.length)];
@@ -48,6 +48,5 @@ function getRandomHero(options) {
         open(pathToServe);
     }
 }
-
 
 getRandomHero(args);
