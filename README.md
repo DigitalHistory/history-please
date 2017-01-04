@@ -14,16 +14,18 @@ npm install -g heroes-please
 You have to use the command line again:
 ```bash
 heroes-please    # Returns a hero
---political          # Returns a political hero
---cultural        # Returns a cultural hero
---misc        # Returns a miscellaneous hero
+--people          # Returns a person
+--events        # Returns an event
+--trends        # Returns a trend
 ```
 
 ## Contributing
 
 First, [register with Github](https://github.com/join) and then "fork" this repository by clicking the "fork" button on the top right of this page.
 
-Once you have an account, you can make changes to this repository directly from the Github repository web page. Add *historical figures* by clicking the `Create New File` button (top right) to add a new file to the `history/people` folder. Similarly, add *events* to the `history/events` folder, and *trends* to the `history/trends` folder.  Each description is written in  the markdown syntax:
+Once you have an account, you can make changes to this repository directly from the Github repository web page. Add *historical figures* by clicking the `Create New File` button (top right) to add a new file to the `history/people` folder:
+![Create New File](./create-file.jpeg)
+Similarly, add *events* to the `history/events` folder, and *trends* to the `history/trends` folder.  Each description is written in  the markdown syntax:
 
 ```md
 # Level 1 headline, for titles
