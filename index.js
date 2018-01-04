@@ -1,7 +1,7 @@
 const menubar = require("menubar");
 const {ipcMain} = require("electron");
 const getRandomRecipe = require("./lib/get-recipe");
-const mb = menubar({showDockIcon: true});
+const mb = menubar({showDockIcon: true, width: 800, height: 800, tooltip: "History, Please!", windowPosition: "center"});
 
 mb.on("ready", () => {
   console.log("ready!");
