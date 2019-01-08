@@ -1,7 +1,7 @@
 # History please!
 :maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf:
 
-This command line utility will give you a random hero from Canadian history.
+This command line utility will give you a random page about Canadian history.
 
 ## Installation
 First, [install node](https://nodejs.org/en/download/). Then, using the command line (terminal in Mac or Linux, Command Prompt or PowerShell in Windows), type:
@@ -13,7 +13,7 @@ npm install -g history-please
 ## Usage
 You have to use the command line again:
 ```bash
-history-please    # Returns a hero
+history-please    # Returns a page
 --people          # Returns a person
 --events        # Returns an event
 --trends        # Returns a trend
