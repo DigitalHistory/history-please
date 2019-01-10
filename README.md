@@ -37,7 +37,9 @@ in the root cirectory
 
 ## Contributing
 
-First, [register with Github](https://github.com/join) and then "fork" this repository by clicking the "fork" button on the top right of this page.
+First, [register with Github](https://github.com/join) 
+
+Optionally, "fork" this repository by clicking the "fork" button on the top right of this page. (this is sort of the "right" thing to do, but itwill make your life a little bit harder.)
 
 Once you have an account, you can make changes to this repository directly from the Github repository web page. Add *historical figures* by clicking the `Create New File` button (top right) to add a new file to the `history/people` folder:
 ![Create New File](./create-file.jpeg)
