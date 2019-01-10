@@ -1,6 +1,6 @@
 {
   "name": "history-please",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Gives you a random Canadian hero from history",
   "license": "MPL-2.0",
   "main": "index.js",
@@ -11,18 +11,16 @@
   "bin": {
     "history-please": "./bin/history-please.js"
   },
-    "devDependencies": {
-    "electron": "1.4.5"
-  },
+  "devDependencies": {},
   "author": "@k88hudson, Matt Price",
   "dependencies": {
     "colors": "^1.1.2",
+    "electron": "^4.0.1",
     "fs-extra": "^0.26.2",
     "html-to-text": "^1.4.0",
+    "markdown": "0.5.0",
     "markdown-js": "0.0.3",
     "minimist": "^1.2.0",
-    "open": "^0.0.5",
-    "markdown": "0.5.0",
-    "menubar": "5.1.0"
+    "open": "^0.0.5"
   }
 }
