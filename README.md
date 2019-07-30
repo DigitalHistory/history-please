@@ -1,7 +1,7 @@
 # History please!
 :maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf::maple_leaf:
 
-This command line utility will give you a random page about Canadian history. It's primarily intended as a teaching tool about the web and web development, but it would be itneresting to see if there's some practical application whose basis it could serve as.  
+This command line utility will give you a random page about Canadian history. It's primarily intended as a teaching tool about the web and web development, but it would be interesting to see if there's some practical application whose basis it could serve as.
 
 ## Installation
 First, [install node](https://nodejs.org/en/download/). Then, using the command line (terminal in Mac or Linux, Command Prompt or PowerShell in Windows), type:
