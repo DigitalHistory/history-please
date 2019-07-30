@@ -5,6 +5,8 @@ This command line utility will give you a random page about Canadian history. It
 
 Designed as part of [Digital History](https://digitalhistory.github.com).
 
+add a bit more
+
 ## Installation
 First, [install node](https://nodejs.org/en/download/). Then, using the command line (terminal in Mac or Linux, Command Prompt or PowerShell in Windows), type:
 
