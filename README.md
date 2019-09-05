@@ -35,13 +35,13 @@ You can also try:
 $ npm install
 $ electron .
 ```
-in the root cirectory
+in the root directory
 
 ## Contributing
 
 First, [register with Github](https://github.com/join) 
 
-Optionally, "fork" this repository by clicking the "fork" button on the top right of this page. (this is sort of the "right" thing to do, but itwill make your life a little bit harder.)
+Optionally, "fork" this repository by clicking the "fork" button on the top right of this page. (this is sort of the "right" thing to do, but it will make your life a little bit harder.)
 
 Once you have an account, you can make changes to this repository directly from the Github repository web page. Add *historical figures* by clicking the `Create New File` button (top right) to add a new file to the `history/people` folder:
 ![Create New File](./create-file.jpeg)
@@ -53,11 +53,10 @@ Similarly, add *events* to the `history/events` folder, and *trends* to the `his
 ## level 2 headline, for outline elements
 ### maybe you feel like a level 3 headline?
 > quote
+*italics* _also italics_
+**bold** __also bold__
 [link text](link URL)
-*italics*
-**bold**
 ![image alt text](Image URL "Image Title")
-etc.
 - list item
 - another list item 
 ```
