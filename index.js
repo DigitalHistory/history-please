@@ -4,11 +4,39 @@ const app = electron.app;
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow;
 
+//  ipcMain handles events
+// this allows us to do some event-based logic below
+// honestly this is a little convoluted
+// and it would be simpler to just run a function directly
+// in index.html
 const {ipcMain} = require('electron');
-const getRandomRecipe = require('./lib/get-history');
+const getHistory = require('./lib/get-history');
 
+// first shuffle the array, to randomize
+getHistory.shuffleHistory();
+
+// this is obsolete and will be sunset
 ipcMain.on('get-history', (event, arg) => {
-  getRandomRecipe()
+  getHistory.getRandomRecipe()
+    .then(text => event.sender.send('recipe', text))
+    .catch(err => {
+      console.log(err);
+      event.sender.send('recipe', `Oops, there was an error: ${err}`);
+    });
+});
+
+// handle `next` and `previous` events with the appropriate functions
+ipcMain.on('get-next', (event, arg) => {
+  getHistory.getNext()
+    .then(text => event.sender.send('recipe', text))
+    .catch(err => {
+      console.log(err);
+      event.sender.send('recipe', `Oops, there was an error: ${err}`);
+    });
+});
+
+ipcMain.on('get-previous', (event, arg) => {
+  getHistory.getPrevious()
     .then(text => event.sender.send('recipe', text))
     .catch(err => {
       console.log(err);

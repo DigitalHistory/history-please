@@ -15,17 +15,43 @@
             </div>
         </div>
         <script>
+         // using `ipcRenderer` lets us do some fancy
+         // event handling. 
          const {ipcRenderer} = require("electron");
+
+         // this is nice -- smooth things out a bit
+         // by creating variables for the elements we care about. 
          const buttonContainer = document.querySelector(".button-container");
          const buttonEl = document.getElementById("button");
          const containerEl = document.getElementById("container");
+
+         // on button click, retrieve and show the next
+         // page in our shuffled list 
          buttonEl.addEventListener("click", () => {
-             ipcRenderer.send("get-history");
+             // update this to send new "get next" signal
+             //ipcRenderer.send("get-history");
+             ipcRenderer.send("get-next");
          });
+
+         // this really is a bit convoluted -- instead of
+         // all thisevent signalling we could just wirte a simple function or two
          ipcRenderer.on("recipe", (event, arg) => {
-             buttonContainer.classList.remove("centered");
+             // this is silly -- let's remove this. 
+             // buttonContainer.classList.remove("centered");
              container.hidden = false;
              container.innerHTML = arg;
+         });
+
+         // add a couple of key bindings; now we can go back
+         // and forth with `n` and `p`
+         window.addEventListener("keyup", function(event) {
+             if (event.key == "n" || event.key == "Enter")
+             {ipcRenderer.send('get-next');
+             } else if (event.key == "p") {
+                 ipcRenderer.send('get-previous');
+             }
+             
+             
          });
         </script>
     </body>
