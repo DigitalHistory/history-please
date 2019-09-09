@@ -1,0 +1,96 @@
+// vars
+// Official Canadian flag colors are as follows.
+// cf. https://www.canada.ca/en/treasury-board-secretariat/services/government-communications/federal-identity-program/technical-specifications/official-symbols/colour-values.html
+$red: #FF0000;
+$white: white;
+
+$border: rgba(0,0,0,0.1);
+
+// rest box-sizing to sensible defaults
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+// base fonts
+body {
+    margin: 0;
+    font-family: Droid, BlinkMacSystemFont, sans-serif;
+}
+
+// maybe unnecessary
+button,
+input {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+// declare the custom property `hidden` and
+// make absolutely sure it hides the element
+[hidden] {
+    display: none !important;
+}
+
+
+// styles for the containing element
+// display: grid, borders, and a few auxiliaries
+.wrapper {
+    // background-color: $red;
+    border-left: 6rem solid $red;
+    border-right: 6rem solid $red;
+    padding: 0 6rem;
+    display: grid;
+    grid-template-rows: 90vh 10vh;
+    gap: 0;
+    height: 100vh;
+    
+    // styling for the button. For fun, use flex to center 
+    .button-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        // button itself
+        button {
+            background: $red;
+            border: 2px solid rgba(0,0,0,0.2);
+            color: $white;
+            border-radius: 3px;
+            padding: 8px 10px;
+            cursor: pointer;
+            font-size: 1.7rem;
+        }
+        button:hover {
+            box-shadow: 0px 0px 5px 5px rgba(0,0,0, 0.2);
+            border: 2px solid rgba(0,0,0,0.2);
+        }
+
+    }
+    #container, .button-container {
+        background-color: $white;
+        padding: 1rem;
+        flex-grow: 10;
+        overflow: auto;
+        h1 {
+            font-size: 2rem;
+        }
+        h2, h3, h4 {
+            font-size: 1.7rem;
+        }
+
+    }
+}
+
+img {
+    max-width: 100%;
+}
+// .container {
+//     border-left: 30px solid $red;
+//     border-right: 30px solid $red;
+// }

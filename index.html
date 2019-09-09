@@ -1,106 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Historymatic</title>
-    <style>
-      html {
-        box-sizing: border-box;
-      }
+    <head>
+        <meta charset="utf-8">
+        <title>Historymatic</title>
+        <style>
+        </style>
+        <link href="css/style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <div class="wrapper">
+            <div id="container" hidden></div>
+            <div class="button-container centered">
+                <button id="button">History, please</button>
+            </div>
+        </div>
+        <script>
+         // using `ipcRenderer` lets us do some fancy
+         // event handling. 
+         const {ipcRenderer} = require("electron");
 
-      *,
-      *::before,
-      *::after {
-        box-sizing: inherit;
-      }
+         // this is nice -- smooth things out a bit
+         // by creating variables for the elements we care about. 
+         const buttonContainer = document.querySelector(".button-container");
+         const buttonEl = document.getElementById("button");
+         const containerEl = document.getElementById("container");
 
-      body {
-        margin: 0;
-        font-family: Droid, BlinkMacSystemFont, sans-serif;
-        font-size: 16px;
-      }
+         // on button click, retrieve and show the next
+         // page in our shuffled list 
+         buttonEl.addEventListener("click", () => {
+             // update this to send new "get next" signal
+             //ipcRenderer.send("get-history");
+             ipcRenderer.send("get-next");
+         });
 
-      button,
-      input {
-        font-family: inherit;
-        font-size: inherit;
-      }
+         // this really is a bit convoluted -- instead of
+         // all thisevent signalling we could just wirte a simple function or two
+         ipcRenderer.on("recipe", (event, arg) => {
+             // this is silly -- let's remove this. 
+             // buttonContainer.classList.remove("centered");
+             container.hidden = false;
+             container.innerHTML = arg;
+         });
 
-      [hidden] {
-        display: none !important;
-      }
-
-      h1 {
-        font-size: 20px;
-      }
-      h2, h3, h4 {
-        font-size: 18px;
-      }
-
-      .wrapper {
-      padding: 20px;
-      }
-      .button-container {
-        text-align: center;
-      border-left: 30px solid red;
-      border-right: 30px solid red;
-      }
-      .button-container.centered {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-      border-left: 30px solid red;
-      border-right: 30px solid red;
-      }
-      .button-container.centered button {
-        font-size: 16px;
-        padding: 10px 18px;
-      }
-      button {
-      background: #FF0000;
-        border: 1px solid rgba(0,0,0,0.1);
-        color: white;
-        border-radius: 3px;
-        padding: 8px 10px;
-        cursor: pointer;
-      }
-      button:focus {
-        outline: none;
-      }
-      img {
-        width: 100%;
-      }
-      .container {
-      border-left: 30px solid red;
-      border-right: 30px solid red;
-}
-    </style>
-  </head>
-  <body>
-    <div class="wrapper">
-      <div class="button-container centered">
-        <button id="button">History, please</button>
-      </div>
-      <div id="container" hidden></div>
-    </div>
-    <script>
-      const {ipcRenderer} = require("electron");
-      const buttonContainer = document.querySelector(".button-container");
-      const buttonEl = document.getElementById("button");
-      const containerEl = document.getElementById("container");
-      buttonEl.addEventListener("click", () => {
-        ipcRenderer.send("get-recipe");
-      });
-      ipcRenderer.on("recipe", (event, arg) => {
-        buttonContainer.classList.remove("centered");
-        container.hidden = false;
-        container.innerHTML = arg;
-      });
-    </script>
-  </body>
+         // add a couple of key bindings; now we can go back
+         // and forth with `n` and `p`
+         window.addEventListener("keyup", function(event) {
+             if (event.key == "n" || event.key == "Enter")
+             {ipcRenderer.send('get-next');
+             } else if (event.key == "p") {
+                 ipcRenderer.send('get-previous');
+             }
+             
+             
+         });
+        </script>
+    </body>
 </html>

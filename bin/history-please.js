@@ -5,9 +5,11 @@ const fs = require('fs');
 const path = require('path');
 const args = require('minimist')(process.argv.slice(2));
 const colors = require('colors');
-const markdown = require('markdown-js');
+const markdown = require('markdown-it')('commonmark');
 const htmlToText = require('html-to-text');
+// const {shell } = require('electron');
 const open = require('open');
+
 const pathToServe = path.join(__dirname, "result.html");
 const header = path.join(__dirname, "../templates/header.html");
 const footer = path.join(__dirname, "../templates/footer.html");
@@ -37,7 +39,7 @@ function getRandomHero(options) {
     const randomFilePath = files[Math.floor(Math.random() * files.length)];
     const text = fs.readFileSync(randomFilePath, {encoding: 'utf-8'})
     const html = fs.readFileSync(header) + text + fs.readFileSync(footer);
-    const result = htmlToText.fromString(markdown.makeHtml(text));
+    const result = htmlToText.fromString(markdown.render(text));
     console.log(LINE + result + '\n\nO Canada!'.yellow + LINE);
     if (options.browser) {
         const file = fs.writeFile(pathToServe, html, function(err) {
@@ -45,7 +47,9 @@ function getRandomHero(options) {
                 return console.log(err);
             }
         });
-        open(pathToServe);
+      open(pathToServe);
+      // shell.openItem(pathToServe);
+      // open(pathToServe);
     }
 }
 
