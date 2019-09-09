@@ -5,7 +5,7 @@ const fs = require('fs');
 const path = require('path');
 const args = require('minimist')(process.argv.slice(2));
 const colors = require('colors');
-const markdown = require('markdown-js');
+const markdown = require('markdown-it')('commonmark');
 const htmlToText = require('html-to-text');
 const open = require('open');
 const pathToServe = path.join(__dirname, "result.html");
@@ -37,7 +37,7 @@ function getRandomHero(options) {
     const randomFilePath = files[Math.floor(Math.random() * files.length)];
     const text = fs.readFileSync(randomFilePath, {encoding: 'utf-8'})
     const html = fs.readFileSync(header) + text + fs.readFileSync(footer);
-    const result = htmlToText.fromString(markdown.makeHtml(text));
+    const result = htmlToText.fromString(markdown.render(text));
     console.log(LINE + result + '\n\nO Canada!'.yellow + LINE);
     if (options.browser) {
         const file = fs.writeFile(pathToServe, html, function(err) {
