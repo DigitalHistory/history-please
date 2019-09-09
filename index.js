@@ -4,10 +4,10 @@ const app = electron.app
 // Module to create native browser window.
 const BrowserWindow = electron.BrowserWindow
 
-const {ipcMain} = require("electron");
-const getRandomRecipe = require("./lib/get-recipe");
+const {ipcMain} = require('electron');
+const getRandomRecipe = require('./lib/get-history');
 
-ipcMain.on("get-recipe", (event, arg) => {
+ipcMain.on('get-history', (event, arg) => {
   getRandomRecipe()
     .then(text => event.sender.send("recipe", text))
     .catch(err => {
