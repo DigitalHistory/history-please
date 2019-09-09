@@ -56,6 +56,8 @@ function createWindow () {
       nodeIntegration: true
     }});
   mainWindow.maximize();
+  // debugging
+  // mainWindow.webContents.openDevTools();
   // and load the index.html of the app.
   mainWindow.loadURL(`file://${__dirname}/index.html`);
 
