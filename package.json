@@ -2,7 +2,7 @@
   "name": "history-please",
   "productName": "HistoryMatic",
   "version": "0.0.8",
-  "description": "Gives you a random Canadian hero from history",
+  "description": "Gives you a random page about Canadian history",
   "license": "MPL-2.0",
   "main": "index.js",
   "scripts": {
