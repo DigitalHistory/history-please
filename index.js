@@ -1,3 +1,4 @@
+const path = require('path');
 const electron = require('electron');
 // Module to control application life.
 const app = electron.app;
@@ -51,7 +52,9 @@ let mainWindow;
 
 function createWindow () {
   // Create the browser window.
-  mainWindow = new BrowserWindow({width: 800 , height: 600,
+  mainWindow = new BrowserWindow({width: 800 ,
+    height: 600,
+    icon: path.join(__dirname, 'images/Canada-Flag-icon.png'),
     webPreferences: {
       nodeIntegration: true
     }});
