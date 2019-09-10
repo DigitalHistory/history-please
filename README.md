@@ -53,7 +53,7 @@ First, [register with Github](https://github.com/join)
 Optionally, "fork" this repository by clicking the "fork" button on the top right of this page. (this is sort of the "right" thing to do, but it will make your life a little bit harder.)
 
 Once you have an account, you can make changes to this repository directly from the Github repository web page. Add *historical figures* by clicking the `Create New File` button (top right) to add a new file to the `history/people` folder:
-![Create New File](./create-file.jpeg)
+![Create New File](./images/create-file.jpeg)
 
 Similarly, add *events* to the `history/events` folder, and *trends* to the `history/trends` folder. Be sure to name the file "some-persons-name.md" (or "some-event-name.md", or "some-trend-name.md") so that everyone, and also the Github server, knows it's written in Markdown. Speaking of which, you will need to use the markdown syntax:
 
