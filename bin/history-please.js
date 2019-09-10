@@ -32,7 +32,7 @@ function getRandomHero(options) {
     if (!options.trends && !options.people) {
         files = files.concat(getFileNames('../history/events'));
     }
-    if (!options.cultural && !options.events) {
+    if (!options.people && !options.events) {
         files = files.concat(getFileNames('../history/trends'));
     }
     
