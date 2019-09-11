@@ -1,18 +1,18 @@
 # Pierre Elliott Trudeau
-```
-oops. The image that used to be linked here is now missing. 
-Can someone find a better one?
-```
+
+![alt text](https://lop.parl.ca/ParlInfoPic/6230/10732.jpg)
+
 
 ### Born: October 18th, 1919
 ### Died: September 28th, 2000
 
 
-###### Trudeau was the 15th Prime Minister of Canada and was in power from 1968-1979 and again from 1980-1984
+###### Trudeau was the 15th Prime Minister of Canada from 1968-1979 and again from 1980-1984
 
 Some interesting facts
 + Trudeau’s former colleagues were moving toward the idea of an independent Québec but Trudeau became a sharp critic of contemporary Québec nationalism and argued for a Canadian federalism in which English and French Canada would find a new equality, according to The Canadian Encyclopedia.
-+ The Pierre Elliott Trudeau International Airport is located in Montreal and was established in the 1940s.
++ He oversaw the repatriation of the constitution in 1982.
++ The Pierre Elliott Trudeau International Airport is located in Montreal and renamed in his honour was established in the 1940s.
 + His son Justin Trudeau is the 23rd Prime Minister of Canada
 
 [Click here for more information](https://en.wikipedia.org/wiki/Pierre_Trudeau)
