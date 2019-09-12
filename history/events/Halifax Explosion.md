@@ -1,5 +1,3 @@
 # Halifax Explosion of 1917
-## Halifax Explosion
-![alt text](http://www.nps.gov/klgo/learn/historyculture/images/Dyea-Beach.jpg)
-### boom boom!!
-### The Halifax Explosion of 1917 was the largest man-made explosion following the dropping of the atomic bombs Little Boy and Fat Man. It occured on December 6, 1917 
+## ![image](https://user-images.githubusercontent.com/55067329/64748625-bec73580-d4e0-11e9-97c8-4a22cca1dc42.png)
+### The Halifax Explosion of 1917 was massive explosion in Halifax, Nova Scotia caused by the collison of the *SS Imo* and *SS Mont-Blanc* on December 6, 1917. The *SS Mont-Blanc* was a cargo vessel filled with explosives, and thus the resulting collision created a massive explosion. Over 2000 were killed, and the event was considered the greatest man-made explosion of its time until the dropping of the atomic bombs Little Boy and Fat Man at Hiroshima and Nagasaki in 1945.
