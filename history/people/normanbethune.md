@@ -1,5 +1,5 @@
 # Norman Bethune
 
-Renowned as a physician and surgeon. Graduated from University of Toronto. Travelled and did work in China where his zeal impressed Mao Zedong. Chinese school children are familiar with his name through his obituary written by Mao Zedong. 
+Born in 1890, Bethune was renowned as a physician and surgeon. He graduated from University of Toronto, receiving his M.D in 1916. As an outspoken communist, he travelled and did work in China where his zeal impressed Mao Zedong, who later wrote his obituary. Today, Chinese school children are familiar with his name because of this association with Zedong.
 
 [His wikipedia page](https://en.wikipedia.org/wiki/Norman_Bethune)
