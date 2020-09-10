@@ -1,21 +1,8 @@
-## University of Toronto
-![alt text](https://i.ibb.co/dtcPTyQ/university-of-toronto-vector-logo.png)
+The University of Toronto was founded in 1827.
+The University of Toronto was originally named King's College before it severed it's connection to the church. This was because Trinity College, at the time a seperate institution, had been created by the Anglican seminary. University College was the nondenominational branch of the university. The University grew to adopt the college system, eventually totaling seven colleges on the st george campus. 
+The first women were admitted to the University in 1884. *The Varsity* published several articles throughout the 1880s arguing in favor of coeducation and the admittance of women. In the following years, seperate residences such as Annesley Hall and St. Hilda's were created to house soley female students.
+In 1890, a devastating fire ravaged the University College building, destroying much of the school's library. Amazingly, the lost volumes were replaced in a matter of years and the building was rebuilt. 
+During the First and Second World Wars, many students from the University of Toronto joined the war effort. This haulted much of the University's activities such as athletic events and academic competitions. 
+In the 1960s, the satellite campuses of Scarborough and Mississauga were opened. 
 
-### Brief Introduction
-The University of Toronto was founded in 1827. It is currently the number one public research university in Canada.
-With the main campus sit in Downtown Toronto, Ontario, other two satellite campuses are located in Scarborough and Mississauga.
-The school offers various Bachelors, Masters, and Doctoral degrees, and students have the option to be either full-time or part-time.
-There is a total of 60,000 students surrently registered in UofT.
-To learn more please visit school's [official website](https://www.utoronto.ca/).
-
-### People From UofT
-University of Toronto has educated **three** Governors General of Canada, **four** Prime Ministers of Canada, **three** foreign leaders, and **fourteen** Justices of the Supreme Court. Until 2019, there are also **ten** Nobel laureates, **five** Turing Award winners, **94** Rhodes Scholars, and **one** Fields Medalist graduated from the university. To learn more about these people and other famous scholars and alumni, please click [here](https://en.wikipedia.org/wiki/List_of_University_of_Toronto_alumni).
-
-### Academic and Student Life
-University of Toronto offers over 700 undergraduate and 200 graduate programs for students to choose from.
-The collections of programs almost covers all of the fields and some are not offered by other universities in the world.
-Each of the three campus also provides various residesces for both undergraduate and graduate students. To apply, please click [here](https://www.studentlife.utoronto.ca/hs/apply). 
-
-#### _Fun Facts_
-- Thomas Fisher Rare Book Library is one of the largest rare book collection library in North America. It was **burned** once accidentally.
-- University of Toronto only stopped school for **twice** during WWI and WWII. Due to the Covid-19, some students believe it is the **third** time in history. 
+![alt text](https://upload.wikimedia.org/wikipedia/commons/a/a7/AirplaneInFrontOfUC.jpg)
