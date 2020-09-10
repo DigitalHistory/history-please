@@ -11,8 +11,8 @@ const htmlToText = require('html-to-text');
 const open = require('open');
 
 const pathToServe = path.join(__dirname, "result.html");
-const header = path.join(__dirname, "../templates/header.html");
-const footer = path.join(__dirname, "../templates/footer.html");
+// const header = path.join(__dirname, "../templates/header.html");
+// const footer = path.join(__dirname, "../templates/footer.html");
 
 const LINE = '\n\n==============================\n\n'.rainbow;
 
@@ -38,7 +38,7 @@ function getRandomHero(options) {
     
     const randomFilePath = files[Math.floor(Math.random() * files.length)];
     const text = fs.readFileSync(randomFilePath, {encoding: 'utf-8'})
-    const html = fs.readFileSync(header) + text + fs.readFileSync(footer);
+    // const html = fs.readFileSync(header) + text + fs.readFileSync(footer);
     const result = htmlToText.fromString(markdown.render(text));
     console.log(LINE + result + '\n\nO Canada!'.yellow + LINE);
     if (options.browser) {

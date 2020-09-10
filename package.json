@@ -14,7 +14,7 @@
     "history-please": "./bin/history-please.js"
   },
   "devDependencies": {
-    "electron": "^6.0.7",
+    "electron": "^10.1.1",
     "node-sass": "^4.12.0"
   },
   "author": "@k88hudson, Matt Price",
