@@ -6,7 +6,7 @@
 
 For years, scientists tried to find a method to treat diabetes mellitus (more commonly just called diabetes) and make it possible to live with the disease.
 Various experiments failed, and it was only in the summer of 1921 when a team from University of Toronto, led by Dr. Frederick Banting, discovered insulin in the pancreas. 
-Of course, Dr. Frederick Banting and his supervisor, Dr. J.J.R. Macleod, received Noble Prize for their great contribution.
+Of course, Dr. Frederick Banting and his supervisor, Dr. J.J.R. Macleod, received a Nobel Prize in Medicine and Physiology for their great contribution.
 To learn more about these two great Canadian scholars, please click on [About Frederick Banting](https://www.nobelprize.org/prizes/medicine/1923/banting/biographical/)
 or [About J.J.R. Macleod](https://www.nobelprize.org/prizes/medicine/1923/macleod/biographical/) for their biographies. 
 
