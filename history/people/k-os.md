@@ -5,9 +5,9 @@
 ### Worked alongside the CBC Radio Orchestra to create "Burning to Shine" in 2006.
 
 > "All around my hometown
-They tried to chop me down
-But the truth shall not forsake me
-Take me up to higher ground" - k-os. Crucial (2004)
+> They tried to chop me down
+> But the truth shall not forsake me
+> Take me up to higher ground" - k-os. Crucial (2004)
 
 Albums:
 
