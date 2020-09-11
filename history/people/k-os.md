@@ -11,9 +11,9 @@ Take me up to higher ground" - k-os. Crucial (2004)
 
 Albums:
 
-Exit (2002)
-Joyful Rebellion (2004)
-Atlantis: Hymns for Disco (2006)
-Yes! (2009)
-BLack on BLonde (2013)
-Can't Fly Without Gravity (2015)
+- Exit (2002)
+- Joyful Rebellion (2004)
+- Atlantis: Hymns for Disco (2006)
+- Yes! (2009)
+- BLack on BLonde (2013)
+- Can't Fly Without Gravity (2015)
