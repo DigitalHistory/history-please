@@ -9,5 +9,6 @@
 > Since Thank Me Later, Drake has found success in various different endeavours. 
 From the creation of his record label, October's Very Own Records, to taking a lead in producing Netflix's latest South London gritty spin off, Top Boy. Today, the RIAA recognises Graham as one of the worlds most reputable artists with over 100 million records sold. 
 
-> ***SOURCES*** https://web.archive.org/web/20091229113819/http://www.theglobeandmail.com/news/arts/aubrey-graham-from-degrassi-to-rapmasta/article656371
-> https://www.riaa.com/gold-platinum/
+> ***SOURCES*** 
+> - https://web.archive.org/web/20091229113819/http://www.theglobeandmail.com/news/arts/aubrey-graham-from-degrassi-to-rapmasta/article656371
+> - https://www.riaa.com/gold-platinum/
