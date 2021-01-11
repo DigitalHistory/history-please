@@ -1,0 +1,13 @@
+#Steve Nash
+##[Career Stats](https://www.basketball-reference.com/players/n/nashst01.html)
+###1996-1998 Phoenix Suns
+###1998-2004 Dallas Mavericks
+###2004-2012 Phoenix Suns
+###2012-2015 Los Angeles Lakers
+<img align="left" width="300" src="https://cdn.vox-cdn.com/thumbor/nVwjb8pS2xPsjwr9p86sbE25N88=/0x4:600x404/920x613/filters:focal(0x4:600x404):format(webp)/cdn.vox-cdn.com/photo_images/1347393/23-Oct-10_103931147CP031_Golden_State.jpg">
+
+Originally born in South Africa, Steve Nash's family immigrated to Victoria, British Columbia while he was still an infant. Son to a soccer player, Nash spent a large part of his childhood playing sports including basketball. Though originally he did not recieve interest from american colleges for a basketball scholarship, Nash eventually caught the attention of Santa Clara where he would led the Broncos to numerous sucessful NCAA runs, though always falling short of the title.
+
+Deciding to go pro, Nash declared for the 1996 NBA draft and was selected 15th overall by the Phoenix Suns. Failing to make a splash during his rookie and sophomore years, he was traded to the Dallas Mavericks in 1998. During his 6 year tenure with the team Nash would develop as an elite outside shooter and would blossom into an All-Star player. Alongside German legend Dirk Nowitzki the Dallas Mavericks progressed to the 2003 Western Conference Finals, though they fell to the eventual NBA champions San Antonio Spurs. After this dissapointment, during his free agency Nash returned to the Phoenix Suns.
+
+This return to the Suns would be where Steve Nash's legacy would be cemented, as under head coach Mike D'Antoni's "7 seconds or less" offense his skills as a spot up shooter would shine. In his first season back with the Suns, Nash would be named the first Canadian NBA MVP. As is a theme in his career, however, Steve Nash would only lead these Phoenix Suns as far as the WCF, often to the eventualy finals winner. In the twilight years of his  career, Nash would join the post Kobe-championship Lakers in hopes of finally winning a ring, but injury and age led him to retire after the 2015 season. He left the league the first Canadian MVP, and well within the top 10 greatest 3-point shooters by percentage in NBA history. Since his retirement, Nash became a shooting consultant for the Steph Curry led Golden State Warriors, during which they won a record 73 games of 82 total during the seaosn. As of more recently, in 2020 it was announced Steve Nash would become the head coach for the Brooklyn Nets, becoming only the second Canadian to be a head coach in the NBA. Alongside Vince Carter, Steve Nash played an instrumental role in the popularization of the NBA in Canada.
