@@ -1,9 +1,9 @@
-#Steve Nash
-##[Career Stats](https://www.basketball-reference.com/players/n/nashst01.html)
-###1996-1998 Phoenix Suns
-###1998-2004 Dallas Mavericks
-###2004-2012 Phoenix Suns
-###2012-2015 Los Angeles Lakers
+# Steve Nash
+## [Career Stats](https://www.basketball-reference.com/players/n/nashst01.html)
+### 1996-1998 Phoenix Suns
+### 1998-2004 Dallas Mavericks
+### 2004-2012 Phoenix Suns
+### 2012-2015 Los Angeles Lakers
 <img align="left" width="300" src="https://cdn.vox-cdn.com/thumbor/nVwjb8pS2xPsjwr9p86sbE25N88=/0x4:600x404/920x613/filters:focal(0x4:600x404):format(webp)/cdn.vox-cdn.com/photo_images/1347393/23-Oct-10_103931147CP031_Golden_State.jpg">
 
 Originally born in South Africa, Steve Nash's family immigrated to Victoria, British Columbia while he was still an infant. Son to a soccer player, Nash spent a large part of his childhood playing sports including basketball. Though originally he did not recieve interest from american colleges for a basketball scholarship, Nash eventually caught the attention of Santa Clara where he would led the Broncos to numerous sucessful NCAA runs, though always falling short of the title.
