@@ -4,3 +4,5 @@ from the Northwest Territories and became Canada's newest territory. The creatio
 between the Canadian government & the native Inuit people. Nunavut means "our land" in Inuktitut, the Inuit language.
 
 ![alt text](https://i.imgur.com/tBdQG1l.png)
+
+![alt text](https://i.imgur.com/3hUoY0v.jpeg)
