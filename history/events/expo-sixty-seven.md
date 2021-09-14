@@ -5,4 +5,4 @@ Expo 67 was initially meant to be hosted in Moscow, however, the Soviets cancell
 
 Much of Expo 67 was hosted on artificially constructed islands, and the expo also spurred the development of Montreal's transit system and other public works. In this sense, Expo 67 changed the face of Montreal and played a role in modernizing the city.
 
-!["Expo 67"] (http://www.ameriquefrancaise.org/media-5377/Expo67_14.jpeg)
+!["Expo 67"](http://www.ameriquefrancaise.org/media-5377/Expo67_14.jpeg)
