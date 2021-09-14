@@ -3,6 +3,7 @@
   "productName": "HistoryMatic",
   "version": "0.0.8",
   "description": "Gives you a random page about Canadian history",
+  "repository": "git@github.com:DigitalHistory/history-please.git",
   "license": "MPL-2.0",
   "main": "index.js",
   "scripts": {
