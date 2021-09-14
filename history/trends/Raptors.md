@@ -1,6 +1,6 @@
 # Toronto Raptors 
 
-<img align="left" width="300" src="https://worldsportlogos.com/wp-content/uploads/2018/01/Toronto-Raptors-emblem.png" alt="Raptor's Logo" aria-label="Raptor's Logo">
+<img align="left" width="300" src="https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Toronto_Raptors_logo.svg/1200px-Toronto_Raptors_logo.svg.png" alt="Raptor's Logo" aria-label="Raptor's Logo">
 
 The Toronto Raptors are a Canadian professional basketball team based in Toronto, Ontario. The Raptors compete in the National Basketball Association (NBA) as a member club of the league's Eastern Conference Atlantic Division. They play their home games at the Scotiabank Arena, which they share with the Toronto Maple Leafs of the National Hockey League (NHL).
 
